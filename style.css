@@ -1,0 +1,90 @@
+/* Background and layout */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Navy Blue and Gray blend */
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #f4f4f4; /* Light Gray */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 380px;
+    border-top: 5px solid #1abc9c; /* Elegant Green strip */
+  }
+  
+  /* Form heading */
+  .login-form h2 {
+    text-align: center;
+    color: #2c3e50; /* Navy Blue */
+    margin-bottom: 25px;
+  }
+  
+  /* Labels */
+  .login-form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+    color: #34495e; /* Dark Gray/Navy */
+  }
+  
+  /* Inputs & dropdowns */
+  .login-form input,
+  .login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    background-color: #ecf0f1; /* Very light gray */
+    color: #2c3e50;
+  }
+  
+  /* Checkbox styling */
+  .login-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1abc9c; /* Green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #16a085;
+  }
+  
+  /* Message below login */
+  #message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Responsive tweak */
+  @media screen and (max-width: 420px) {
+    .container {
+      width: 90%;
+      padding: 30px;
+    }
+  }
+  
